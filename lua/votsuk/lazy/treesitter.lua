@@ -4,7 +4,7 @@ return {
 		build = ":TSUpdate",
 		config = function()
 			require("nvim-treesitter.configs").setup({
-                ignore_install = {},
+				ignore_install = {},
 				-- A list of parser names, or "all"
 				ensure_installed = {
 					"bash",
@@ -15,7 +15,7 @@ return {
 					"jsdoc",
 					"json",
 					"lua",
-                    "php",
+					"php",
 					"python",
 					"scss",
 					"tsx",
