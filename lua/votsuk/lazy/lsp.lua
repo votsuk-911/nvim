@@ -87,10 +87,6 @@ return {
 
 			-- JSON language server with schema support
 			jsonls = {
-				server_capabilities = {
-					-- Disable formatting (use Prettier instead)
-					documentFormattingProvider = false,
-				},
 				settings = {
 					json = {
 						-- Use schemas from SchemaStore for better JSON completion
@@ -116,7 +112,7 @@ return {
 		local ensure_installed = {
 			"pyright", -- Python language server
 			"typescript-language-server", -- TypeScript language server
-			"prettier", -- Code formatter
+			"eslint", -- Linter and formatter
 			"lua_ls", -- Lua language server
 		}
 

@@ -9,8 +9,8 @@ return {
 			},
 			formatters_by_ft = {
 				lua = { "stylua" },
-				javascript = { "prettier" },
-				typescript = { "prettier" },
+				javascript = { "eslint" },
+				typescript = { "eslint" },
 			},
 			formatters = {
 				["clang-format"] = {
